@@ -4,8 +4,8 @@ Homework1::Application.routes.draw do
 
 
   # You can have the root of your site routed with "root"
-   root 'index#welcome'
-   get "index/welcome"
+   root 'index#first'
+   get "index/first"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
